@@ -5,7 +5,7 @@ import os                              #fetching its contents, changing and iden
 window = Tk()
 window.title("QR Code Generator")
 
-def generate():                                             #created a function to generate the QR code 
+def generate():                                             #created a function to generate the QR code #Saranraj😎
     if len(subject.get()) != 0:
         global myQr
         myQr = pyqrcode.create(subject.get())
